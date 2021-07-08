@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/about/static/css/main.9e476035.chunk.css",
-    "main.js": "/about/static/js/main.a333cf05.chunk.js",
-    "main.js.map": "/about/static/js/main.a333cf05.chunk.js.map",
-    "runtime-main.js": "/about/static/js/runtime-main.3c3b738d.js",
-    "runtime-main.js.map": "/about/static/js/runtime-main.3c3b738d.js.map",
-    "static/js/2.5396fbe5.chunk.js": "/about/static/js/2.5396fbe5.chunk.js",
-    "static/js/2.5396fbe5.chunk.js.map": "/about/static/js/2.5396fbe5.chunk.js.map",
-    "static/js/3.eb1f847c.chunk.js": "/about/static/js/3.eb1f847c.chunk.js",
-    "static/js/3.eb1f847c.chunk.js.map": "/about/static/js/3.eb1f847c.chunk.js.map",
-    "index.html": "/about/index.html",
-    "static/css/main.9e476035.chunk.css.map": "/about/static/css/main.9e476035.chunk.css.map",
-    "static/js/2.5396fbe5.chunk.js.LICENSE.txt": "/about/static/js/2.5396fbe5.chunk.js.LICENSE.txt",
-    "static/media/profile.d8cad5f5.png": "/about/static/media/profile.d8cad5f5.png",
-    "static/media/App.css": "/about/static/media/wave.45077daa.svg"
+    "main.css": "/Portfolio/static/css/main.5570df44.chunk.css",
+    "main.js": "/Portfolio/static/js/main.4d946362.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.4d946362.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.652bc967.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.652bc967.js.map",
+    "static/js/2.5396fbe5.chunk.js": "/Portfolio/static/js/2.5396fbe5.chunk.js",
+    "static/js/2.5396fbe5.chunk.js.map": "/Portfolio/static/js/2.5396fbe5.chunk.js.map",
+    "static/js/3.eb1f847c.chunk.js": "/Portfolio/static/js/3.eb1f847c.chunk.js",
+    "static/js/3.eb1f847c.chunk.js.map": "/Portfolio/static/js/3.eb1f847c.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "static/css/main.5570df44.chunk.css.map": "/Portfolio/static/css/main.5570df44.chunk.css.map",
+    "static/js/2.5396fbe5.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.5396fbe5.chunk.js.LICENSE.txt",
+    "static/media/profile.d8cad5f5.png": "/Portfolio/static/media/profile.d8cad5f5.png",
+    "static/media/App.css": "/Portfolio/static/media/wave.45077daa.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3c3b738d.js",
+    "static/js/runtime-main.652bc967.js",
     "static/js/2.5396fbe5.chunk.js",
-    "static/css/main.9e476035.chunk.css",
-    "static/js/main.a333cf05.chunk.js"
+    "static/css/main.5570df44.chunk.css",
+    "static/js/main.4d946362.chunk.js"
   ]
 }

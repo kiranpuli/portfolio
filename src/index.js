@@ -1,13 +1,20 @@
-import React from 'react';
+import React from "react"
 import ReactDOM from 'react-dom';
-import './index.css';
+import {
+  BrowserRouter as Router
+} from "react-router-dom";
+
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './index.css';
+import './bootstrap.css'
 
 ReactDOM.render(
+  <Router basename="/Portfolio">
   <React.StrictMode>
     <App />
-  </React.StrictMode>,
+  </React.StrictMode>
+  </Router>,
   document.getElementById('root')
 );
 

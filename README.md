@@ -7,7 +7,7 @@ Place where you can see the latest projects that I'm currently working on...
 * Bootstrap
 * Formik
 
-## Todo tools
-* [ ] Contact form
+## Todo
+* [ ] Analytics
 * [ ] Admin Panel
 * [ ] Convert into PWA

@@ -1,7 +1,7 @@
 # Portfolio
 Place where you can see the latest projects that I'm currently working on...
 [Visit site here](https://kiranpuli.github.io/portfolio/)
-## ⚙ Tools Used
+## ⚙ Tools used
 * React
 * React-reveal (for animations)
 * Bootstrap

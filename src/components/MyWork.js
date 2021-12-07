@@ -1,6 +1,5 @@
 import React,{Component} from "react"
 import Fade from 'react-reveal/Fade';
-import { SunspotLoader } from "react-awesome-loaders";
 import {projects,skills} from "../data"
 
 
@@ -29,11 +28,7 @@ export class MyWork extends Component {
             <div className='myWork'>
                 {this.state.isLoading?(
                     <div className="loading">
-                        <SunspotLoader
-                            gradientColors={["#1000ff","#abcaff" ]}
-                            shadowColor={"#333"}
-                            size={"30px"}
-                        />
+                        Loading...
                     </div>
                 ):(
                     <>

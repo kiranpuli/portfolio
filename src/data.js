@@ -1,11 +1,19 @@
 export const jobs=[
     {
         id:1,
+        company:"amazon",
+        description:"SDE",
+        logoURL:"/assets/jobs/amazon.jpeg",
+        from:"Dec 2021",
+        to:"Present"
+    },
+    {
+        id:2,
         company:"quantiphi",
-        description:"Framework engineer intern",
+        description:"Framework engineer",
         logoURL:"/assets/jobs/quantiphi.jpeg",
         from:"Jan 2021",
-        to:"Present"
+        to:"Nov 2021"
     },
     // {
     //     id:2,
@@ -136,13 +144,15 @@ export const socialLinks=[
     {
         id:1,
         title:"LinkedIn",
-        logoURL:"/assets/contact/linkedin.jpg",
-        link:"https://www.linkedin.com/in/kiran-puli/"
+        logoURL:"/assets/contact/linkedin-anime.gif",
+        link:"https://www.linkedin.com/in/kiran-puli/",
+        height:50
     },
     {
         id:2,
         title:"Github",
-        logoURL:"/assets/contact/github.png",
-        link:"https://github.com/kiranpuli"
+        logoURL:"/assets/contact/github-anime.gif",
+        link:"https://github.com/kiranpuli",
+        height:40
     },
 ]

@@ -13,7 +13,7 @@ export class Contact extends Component {
                             return(
                                 <span className=" m-1" key={e.id}>
                                    <a href={e.link} target="_blank" rel="noreferrer" data-toggle="tooltip" data-placement="bottom" title={e.title}>
-                                       <img src={process.env.PUBLIC_URL+e.logoURL} alt={e.title} height="50"  className="shadow"/>
+                                       <img src={process.env.PUBLIC_URL+e.logoURL} alt={e.title} height={e.height}/>
                                     </a> 
                                 </span>
                             )

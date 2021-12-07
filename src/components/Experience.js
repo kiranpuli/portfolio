@@ -45,7 +45,7 @@ export class Experience extends Component {
                                         <td className="text-right">
                                         {e.expiry?(
                                         <small >
-                                            Valid Until : {e.expiry}
+                                            *Expiry: {e.expiry}
                                         </small>):(null)}
                                         </td>
                                     </tr>

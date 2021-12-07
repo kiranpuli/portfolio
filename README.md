@@ -1,7 +1,7 @@
 # Portfolio
 Place where you can see the latest projects that I'm currently working on...
 
-[Visit website 🔗](https://kiranpuli.github.io/portfolio/)
+[Visit website 🔗](https://kiranpuli.github.io/Portfolio/)
 
 ## ⚙️ Tools used
 * React

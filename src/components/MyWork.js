@@ -32,20 +32,20 @@ export class MyWork extends Component {
                     </div>
                 ):(
                     <>
-                    <div className="container projects">
+                    <div className="container-fluid projects">
                         <h1 className="text-center text-light p-3">Projects</h1>
                         <Fade bottom cascade>
                             <div className="row">
                                 {this.state.projects.map(e=>{
                                     return (
-                                        <div className="col-md-4 col-sm-12 mb-3 key={e.id}">
-                                        <div className="card p-3 shadow-lg" >
-                                        <img className="card-img-top shadow" src={process.env.PUBLIC_URL+e.imgURL} alt={e.title}/>
-                                            <div className="card-body">
+                                        <div className="col-md-4 col-sm-12 mb-3" key={e.id}>
+                                        <div className="card p-1 shadow-lg h-100" >
+                                        <img className="card-img-top shadow h-100" src={process.env.PUBLIC_URL+e.imgURL} alt={e.title}/>
+                                            <div className="d-flex flex-column justify-content-between card-body ">
                                                 <h5 className="card-title">{e.title}</h5>
                                                 <p className="card-text">{e.description}</p>
                                                 <div className="d-flex justify-content-around">
-                                                {e.demo!==null?<a href={e.demo} target="_blank" rel="noreferrer" className="btn btn-sm btn-outline-danger shadow">Demo 🌎</a>:null}
+                                                {e.demo!==null?<a href={e.demo} target="_blank" rel="noreferrer" className="btn btn-sm btn-outline-danger shadow">Demo <span className="d-m-none">🌎</span></a>:null}
                                                 {e.code!==null?<a href={e.code} target="_blank" rel="noreferrer" className="btn btn-sm btn-outline-info shadow">Code 💻</a>:null}
                                                 </div>
                                             </div>
@@ -63,7 +63,7 @@ export class MyWork extends Component {
                                 {this.state.skills.map((e)=>{
                                     return (
                                     <div className="col-md-4 col-sm-12 mb-3">
-                                        <div className="card shadow-lg p-3" key={e.id}>
+                                        <div className="card shadow-lg p-1 h-100" key={e.id}>
                                             <div className="card-body">
                                                 <h5 className="card-title">{e.title}</h5>
                                                 <ul className="list-group list-group-flush">

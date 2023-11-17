@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import Fade from 'react-reveal/Fade';
 import { socialLinks } from '../data'
 
 export class Contact extends Component {
@@ -8,7 +7,6 @@ export class Contact extends Component {
             <div className="Contact container">
                 <div className="links text-light text-center">
                     <h1 className="mb-3 p-3">Want to connect?</h1>
-                    <Fade bottom cascade>
                         {socialLinks.map(e=>{
                             return(
                                 <span className=" m-1" key={e.id}>
@@ -18,7 +16,6 @@ export class Contact extends Component {
                                 </span>
                             )
                         })}
-                    </Fade>
                 </div>
                 <div className="contactForm">
                         

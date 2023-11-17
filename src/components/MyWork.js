@@ -1,5 +1,4 @@
 import React,{Component} from "react"
-import Fade from 'react-reveal/Fade';
 import {projects,skills} from "../data"
 
 
@@ -34,7 +33,6 @@ export class MyWork extends Component {
                     <>
                     <div className="container-fluid projects">
                         <h1 className="text-center text-light p-3">Projects</h1>
-                        <Fade bottom cascade>
                             <div className="row">
                                 {this.state.projects.map(e=>{
                                     return (
@@ -54,11 +52,9 @@ export class MyWork extends Component {
                                     )
                                 })}
                             </div>
-                        </Fade>
                     </div>
                         <div className="container skills">
                             <h1 className="text-center text-light p-3">Skills</h1>
-                            <Fade bottom cascade>
                             <div className="row">
                                 {this.state.skills.map((e)=>{
                                     return (
@@ -77,7 +73,6 @@ export class MyWork extends Component {
                                     )                       
                                 })}
                             </div>
-                            </Fade>
                     </div>
                     </>
                 )}

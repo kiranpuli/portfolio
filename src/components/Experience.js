@@ -1,12 +1,10 @@
 import React, { Component } from 'react'
-import Fade from 'react-reveal/Fade';
 import { certificates, jobs } from '../data';
 
 export class Experience extends Component {
     render() {
         return (
             <div className="experience container">
-                <Fade bottom cascade>
                 <div className="jobs mt-3 bg-light shadow p-3 rounded">
                         <div className="internships table-responsive">
                             <h1 className="text-center">Experience</h1>
@@ -54,7 +52,6 @@ export class Experience extends Component {
                         </tbody>
                     </table>
                 </div>
-            </Fade>
             </div>
         )
     }

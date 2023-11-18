@@ -1,5 +1,5 @@
 {
-  "homepage": "http://kiranpuli.github.io/Portfolio",
+  "homepage": "http://kiranpuli.github.io/portfolio",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -8,13 +8,12 @@
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "formik": "^2.2.9",
-    "react": "^17.0.2",
-    "react-awesome-loaders": "^0.1.37",
-    "react-dom": "^17.0.2",
-    "react-lottie": "^1.2.3",
-    "react-reveal": "^1.2.2",
+    "lottie-web": "^5.12.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
+    "typewriter-effect": "^2.21.0",
     "web-vitals": "^1.1.2"
   },
   "scripts": {

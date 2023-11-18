@@ -5,8 +5,8 @@ export class Experience extends Component {
     render() {
         return (
             <div className="experience container">
-                <div className="jobs mt-3 bg-light shadow p-3 rounded">
-                        <div className="internships table-responsive">
+                <div className="jobs">
+                        <div className="internships table-responsive bg-light p-3 shadow-lg">
                             <h1 className="text-center">Experience</h1>
                             <table className="table table-borderless ">
                                 <tbody>
@@ -28,9 +28,8 @@ export class Experience extends Component {
                             </table>
                         </div>
                 </div>
-                <div className="certificates mt-3 bg-light shadow p-3  rounded">
+                <div className="certificates mt-3 table-responsive bg-light p-3 shadow-lg">
                     <h1 className="text-center ">Certifications</h1>
-                
                     <table className="table table-borderless ">
                         <tbody>
                         {certificates.map(e=>{

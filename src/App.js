@@ -4,10 +4,10 @@ import {
   Redirect
 } from "react-router-dom";
 import Nav from "./components/Nav.js"
-import About from "./components/About.js"
-import Experience from "./components/Experience.js";
-import MyWork from "./components/MyWork";
-import Contact from "./components/Contact.js";
+import About from "./pages/About.js"
+import Experience from "./pages/Experience.js";
+import MyWork from "./pages/MyWork";
+import Contact from "./pages/Contact.js";
 import Admin from "./components/Admin/Admin.js";
 
 import './App.css';

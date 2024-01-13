@@ -38,7 +38,7 @@ export class MyWork extends Component {
                                     return (
                                         <div className="col-md-4 col-sm-12 mb-3" key={e.id}>
                                         <div className="card p-1 shadow-lg h-100" >
-                                        <img className="card-img-top shadow h-100" src={process.env.PUBLIC_URL+e.imgURL} alt={e.title}/>
+                                        <img className="card-img-top shadow h-100" src={process.env.PUBLIC_URL+e.imgURL} alt={e.title} loading="lazy"/>
                                             <div className="d-flex flex-column justify-content-between card-body ">
                                                 <h5 className="card-title">{e.title}</h5>
                                                 <p className="card-text">{e.description}</p>

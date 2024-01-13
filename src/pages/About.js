@@ -1,5 +1,5 @@
 import React, { Component, useEffect } from 'react'
-import AboutImg from "../../src/assets/bg/about_lottie.json"
+import AboutImg from "../assets/bg/about_lottie.json"
 import lottie from "lottie-web";
 import Typewriter from 'typewriter-effect';
 
